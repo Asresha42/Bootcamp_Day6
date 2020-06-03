@@ -1,0 +1,30 @@
+.home{
+    font-style: normal;
+    font-family: 'Tahoma';
+    color: white;
+    font-size: 80px;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 50%;
+    background-color: black;
+    height: 200px;
+    padding-top: 3%;
+    
+}
+.para{
+    font-family: 'Tahoma';
+    font-style: normal;
+    text-align: left;
+    margin-top: -20px;
+    color: grey;
+    text-align: center;
+    padding-top: 1%;
+}
+
+.card{
+    height: 100; 
+    width: 100; 
+    padding-left: 5%; 
+    bottom: 0%;
+    
+}
