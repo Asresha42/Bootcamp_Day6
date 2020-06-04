@@ -10,7 +10,15 @@
     <link rel="stylesheet" href="index.css"/>
     <script src="index.js"></script>
     <style>
-      h2 {font-size: 46px;}
+      h2 {font-size: 46px;
+      }
+      h3{
+        text-align: center;
+        color: black;
+        font-weight: 1000;
+        font-family: 'Calibri';
+        font-size: 42px;
+      }
       </style>
     <title></title>
   </head>
@@ -18,17 +26,16 @@
     
 
     <nav class="navbar navbar-light">
-      <div class="container-fluid">
+      <div class="container">
         <div class="navbar-header">
-          <a class="navbar-brand" href="#" style="color: black; padding-bottom: 2%;">OSAHANEAT</a>
-          <a class="topleft"><img src="zomato.jpg" height="35px" alt="logo"/></a>
+          <a class="navbar-brand" href="#" style="color: black; padding-bottom:  2%;"><img src="zomato.jpg" height="35";>  OSAHANEAT</a>
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
           <ul class="nav navbar-nav navbar-right">
-            <li class="active"><a style="color: black; text-align: center " href="#" >Home</a><li>
+            <li class="active"><a style="color: black; text-align: center " href="#">Home</a><li>
             <li><a href="#" style="color: black;">Offers</a><li>
             <li class ="dropdown">
-              <a class="dropdown-toggle" data-toggle="dropdown" href="#" style="color: black;">Restaurants<span class="caret"></span></a>
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#" style="color: black; font-weight: 400;">Restaurants<span class="caret"></span></a>
               <ul class="dropdown-menu">
                 <li><a href="#">Listings</a></li>
                 <li><a href="#">Details+Cart</a></li>
@@ -47,7 +54,19 @@
               </ul>
             </li>
             <li class ="dropdown">
-                <a class="dropdown-toggle" data-toggle="dropdown" href="#" style="color: black;">My Account<span class="caret"></span></a>
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#" style="color: black;">Cart<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Chicken Tikka Sub</a></li>
+                <li><a href="#">Corn and Peas Salad</a></li>
+                <li><a href="#">Veg Seekh Sub</a></li>
+
+              </ul>
+            </li>
+            <li class ="dropdown">
+               
+               <a class="dropdown-toggle" data-toggle="dropdown" href="#" style="color: black;"><img src="Avatar.png" style="max-height: 10%; max-width: 10%;">My Account<span class="caret"></span></a>
+                
+                
                 <ul class="dropdown-menu">
                   <li><a href="#">Orders</a></li>
                   <li><a href="#">Offers</a></li>
@@ -57,15 +76,7 @@
                   
                 </ul>
               </li>
-              <li class ="dropdown">
-                <a class="dropdown-toggle" data-toggle="dropdown" href="#" style="color: black;">Cart<span class="caret"></span></a>
-                <ul class="dropdown-menu">
-                  <li><a href="#">Chicken Tikka Sub</a></li>
-                  <li><a href="#">Corn and Peas Salad</a></li>
-                  <li><a href="#">Veg Seekh Sub</a></li>
-
-                </ul>
-              </li>
+              
 
           </ul>
         </div>
@@ -102,25 +113,19 @@
               </div> <br><br>
               <p style="text-align:left">E.g: Beverages, Pizza,Chinese,Bakery, Indian...</p>
             </div>
-          </div>
+          
           <div class="container">
             <div class="row">
               <div class="col-md-12">
-                <div class="carousel slide multi-item-carousel" id="theCarousel" style="width: 100%">
+                <div class="carousel slide multi-item-carousel" id="theCarousel" style="width: 60%">
                   <div class="carousel-inner">
                     <div class="item active">
-                      
-                      <div class="col-xs-4"><a href="#"><img src="2015_01_28_12_24_19_220_hamburger_200.jpg" class="img-responsive" style="width:200px"></a>Dessert</div>
-                   
-                      <div class="col-xs-1"><a href="#"><img src="fusion-food-200x200.jpg" class="img-responsive" style="width:200px"></a></div>
-
-                      <div class="col-xs-2"><a href="#"><img src="photo-1460306855393-0410f61241c7.jfif" class="img-responsive"></a></div>
-                    </div>
-                    <div class="item">
-                      <div class="col-xs-3"><a href="#"><img src="10867983783_854a7fec8f_o.jpg" class="img-responsive"></a></div>
-                    </div>
-                    <div class="item">
-                      <div class="col-xs-4"><a href="#"><img src="zomato.jpg" class="img-responsive"></a></div>
+                      <div class="col-sm-2"><a href="#"><img src="2015_01_28_12_24_19_220_hamburger_200.jpg" class="img-responsive">Burgers<br>120</a></div>
+                      <div class="col-sm-2"><a href="#"><img src="fusion-food-200x200.jpg" class="img-responsive">Chinese<br>150</a></div>
+                      <div class="col-sm-2"><a href="#"><img src="easy-personal-pizza-recipe-1.jpg" class="img-responsive">Pizza<br>140</a></div>
+                      <div class="col-sm-2"><a href="#"><img src="pappardelle-pasta-familystylefood-200x200.jpg" class="img-responsive">Italian<br>170</a></div>
+                      <div class="col-sm-2"><a href="#"><img src="Instant-Pot-butter-chicken-9-200x200.jpg" class="img-responsive">Indian<br>130</a></div>
+                      <div class="col-sm-2"><a href="#"><img src="instant-pot-cheesy-mexican-chicken-rice-104-200x200.jpg" class="img-responsive">Mexican<br>160</a></div>
                     </div>
                 
                   <a class="left carousel-control" href="#theCarousel" data-slide="prev"><i class="glyphicon glyphicon-chevron-left"></i></a>
@@ -129,6 +134,55 @@
               </div>
             </div>
           </div>
+          </div><br>
+          </div>
+          
+          <div class="contrainer-fluid">
+            <div class="row">
+              <div class="col-sm-1"></div>
+              <div class="col"></div>
+                <div class="card">
+                  <a class="imagee" href="#"><img class= "card-img-top"src="ed9f0be1ad4d3ae259611881078ef585.png" alt="Card image cap" class = "img-responsive" width = "17%"></a>
+                  <a class="imagee" href="#"><img class="card-img-top" src="unnamed.png" alt="Card image cap" class = "img-responsive" max-height=auto width = "17%"></a>
+                  <a class="imagee" href="#"><img class="card-img-top" src="Foodpanda-300x300.png" alt="Card image cap" class = "img-responsive" width = "17%"></a>
+                  <a class="imagee" href="#"><img class="card-img-top" src="3618.jpg" alt="Card image cap" class = "img-responsive" width = "17%"></a>
+                    
+                </div>
+              </div>
+              
+                
+          </div><br>
+          <div class="jumbotron">
+            <h3 style="padding-top: 0%;">Popular Brands</h3>
+            <p style="font-size:22px; text-align: center;"><small>Top Restaurants, cafes, pubs, and bars in Australia, based on trends</small></p>
+            <div class="row">
+            <div class="col-md-12">
+            <div class="carousel slide multi-item-carousel" id="theCarousel" style="width: 100%">
+              <div class="carousel-inner">
+                <div class="item active">
+                  <div class="col-sm-2"><a href="#"><img src="2015_01_28_12_24_19_220_hamburger_200.jpg" class="img-responsive">Burgers<br>120</a></div>
+                  <div class="col-sm-2"><a href="#"><img src="fusion-food-200x200.jpg" class="img-responsive">Chinese<br>150</a></div>
+                  <div class="col-sm-2"><a href="#"><img src="easy-personal-pizza-recipe-1.jpg" class="img-responsive">Pizza<br>140</a></div>
+                  <div class="col-sm-2"><a href="#"><img src="pappardelle-pasta-familystylefood-200x200.jpg" class="img-responsive">Italian<br>170</a></div>
+                  <div class="col-sm-2"><a href="#"><img src="Instant-Pot-butter-chicken-9-200x200.jpg" class="img-responsive">Indian<br>130</a></div>
+                  <div class="col-sm-2"><a href="#"><img src="instant-pot-cheesy-mexican-chicken-rice-104-200x200.jpg" class="img-responsive">Mexican<br>160</a></div>
+                </div>
+            
+              <a class="left carousel-control" href="#theCarousel" data-slide="prev"><i class="glyphicon glyphicon-chevron-left"></i></a>
+              <a class="right carousel-control" href="#theCarousel" data-slide="next"><i class="glyphicon glyphicon-chevron-right"></i></a>
+            </div>
+          </div>
+        </div>
+        </div>
+          </div>
+          
+        
+            
+     
+          
+            
+            
+          
       
     </body>
     </html>
